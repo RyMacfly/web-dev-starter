@@ -16,15 +16,3 @@ function loaded() {
 export function sayHello() {
     return 'hello';
 }
-/**
- * This function hadels the button click to send a alert and
- * returns the string 'hello'
- * @return {string} the string hello
- */
-function handleClick() {
-    alert('Howdy!');
-    return 'hello';
-}
-
-//adds event listener to button
-document.getElementById('myButton').addEventListener('click', handleClick);
